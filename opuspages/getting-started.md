@@ -11,7 +11,7 @@ The first time OpusPages opens, a short tour shows the basics. **Take the tour**
 
 Click **Open PDF** (or press Ctrl+O), pick a recent PDF on the start screen, or drop a PDF on the window. OpusPages opens PDFs from anywhere on your PC and saves changes back to the same file, about 1.5 seconds after each change. The status in the top right shows Edited, Saving, or Saved.
 
-To keep the original untouched, use **Save a copy** first (the download button in the top bar, or Ctrl+Shift+S). Give the copy a name, and it saves next to the original unless you choose another folder.
+To keep the original untouched, use **Save as** first (the download button in the top bar, or Ctrl+Shift+S). Give the copy a name, and it saves next to the original unless you choose another folder. To save only some pages, pick Selected pages or type a range like 1-3, 5.
 
 ## Read and find
 
@@ -21,11 +21,11 @@ Scroll through the pages, or click a thumbnail on the left to jump. Zoom with Ct
 
 1. Click a thumbnail to select a page. Ctrl+click or Shift+click selects several.
 2. Drag thumbnails to reorder.
-3. Use the toolbar or right-click a thumbnail to rotate, delete, insert pages from another PDF, or save the selected pages as a new PDF.
+3. Use the toolbar or right-click a thumbnail to rotate, delete, or merge another PDF in after the current page. To save some pages as a new PDF, right-click them, or use Save as and pick the pages.
 
-## Combine PDFs
+## Merge and combine PDFs
 
-Click **Combine PDFs** on the start screen and pick two or more PDFs (hold Ctrl to pick several). The combined PDF is saved to `Documents\OpusPages` and opens right away. Dropping PDFs on an open document adds their pages after the current page.
+Click **Combine PDFs** on the start screen and pick two or more PDFs (hold Ctrl to pick several). The combined PDF is saved to `Documents\OpusPages` and opens right away. To add another PDF to the one you have open, click the merge button in the toolbar, or drop the PDF on the window. Its pages go after the current page.
 
 ## Fill in a form
 

@@ -13,6 +13,6 @@
 | Undo, redo | Ctrl+Z, Ctrl+Y |
 | Zoom in, zoom out, fit to width | Ctrl+=, Ctrl+-, Ctrl+0 |
 | Next or previous page | Page Down, Page Up |
-| Save a copy | Ctrl+Shift+S |
+| Save as | Ctrl+Shift+S |
 | Next or previous answer line in a form | Enter or Down, Up |
 | Save now (autosave already handles it) | Ctrl+S |

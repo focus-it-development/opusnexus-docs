@@ -2,6 +2,16 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.1.2 Beta (2026-09-28)
+
+One Save as, and a clearer Merge.
+
+### Changed
+
+1. The download button opens Save as directly (Ctrl+Shift+S too). It asks for a name, saves next to the original or in a folder you choose, and has a Pages choice: All pages (the default), Selected pages when thumbnails are selected, or Custom, such as 1-3, 5. Pages are saved in the order typed, and a range that does not fit the PDF gets a plain message before anything is saved.
+2. The separate Save pages toolbar button is gone, since Save as covers it. Right-clicking thumbnails still offers Save these pages as a new PDF, which opens Save as with the selection chosen.
+3. The Insert pages button is now Merge a PDF into this one, with a merge icon (two pages joining into one). Combine PDFs on the start screen uses the same icon.
+
 ## v0.1.1 Beta (2026-09-28)
 
 Fixes from the first round of testing.
