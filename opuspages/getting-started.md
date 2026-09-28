@@ -11,7 +11,7 @@ The first time OpusPages opens, a short tour shows the basics. **Take the tour**
 
 Click **Open PDF** (or press Ctrl+O), pick a recent PDF on the start screen, or drop a PDF on the window. OpusPages opens PDFs from anywhere on your PC and saves changes back to the same file, about 1.5 seconds after each change. The status in the top right shows Edited, Saving, or Saved.
 
-To keep the original untouched, use the download button in the top bar and **Save a copy** first.
+To keep the original untouched, use **Save a copy** first (the download button in the top bar, or Ctrl+Shift+S). Give the copy a name, and it saves next to the original unless you choose another folder.
 
 ## Read and find
 
@@ -36,7 +36,7 @@ If a PDF has form fields, they show with a light teal tint. Click and type, or p
 Many PDFs look like forms but cannot be filled in, such as a printed Google Form or a scanned paper form.
 
 1. Click **Prepare form** in the toolbar.
-2. Click **Find fields**. OpusPages finds the answer lines, checkbox rows, and ovals, and names each field after its question.
+2. Click **Find fields**. OpusPages finds the answer lines, checkbox rows, and ovals, and names each field after its question. Each answer line gets its own field so text sits on the line. When a question has several lines, typing flows onto the next line as one fills up, and Enter moves down a line.
 3. Check the list on the right. Rename a field by editing its name, or remove one with the x.
 4. To add a field yourself, pick a type (Text, Paragraph, Checkbox, Dropdown, or Date) and drag a box on the page.
 5. Click **Make fillable**. The PDF now has real form fields that anyone can fill in, in any PDF reader.

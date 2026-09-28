@@ -2,6 +2,22 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.1.1 Beta (2026-09-28)
+
+Fixes from the first round of testing.
+
+### Changed
+
+1. Find fields gives each answer line its own text box, sitting right on the printed line, so typed text lines up with the form in every PDF reader. Before, stacked lines became one paragraph box, and readers spaced the text so it drifted off the lines. Stacked lines are numbered (Q7 Comments 1, 2, 3), only the first is marked required, and in OpusPages typing flows to the next line when one fills up. Enter or Down moves to the next line, Up and Backspace move back.
+2. Save a copy asks for a name in a small box, saving next to the original, with Choose folder for anywhere else. It warns before replacing a file, and Ctrl+Shift+S opens it.
+3. Save pages as a new PDF asks for a name the same way, instead of naming the file on its own.
+4. The download button's hover text says Save a copy.
+
+### Fixed
+
+1. The Recent list on the start screen showed as plain bullets because its styles were missing. It now matches OpusType and OpusTables.
+2. In dark mode, empty choice buttons on the page showed as black circles. Controls on the page now always use the light look, since pages stay white.
+
 ## v0.1.0 Beta (2026-09-28)
 
 First release. A clean PDF app for Windows that reads, organizes, fills, signs, and marks up PDFs, and turns flat PDFs into fillable forms.
