@@ -62,3 +62,13 @@ Click the export button in the top bar.
 ## RTF files with images or tables
 
 OpusType cannot keep images or tables in RTF files yet. When a file has them, it offers to **Edit a copy** so the original stays whole.
+
+## Appearance
+
+Click the palette button in the top bar, or **Appearance** on the start screen.
+
+1. **Mode:** System follows your Windows setting. Light and Dark stay put whatever Windows does.
+2. **Theme:** each theme is two colors, one for the app bar and one for the body. Pick Slate, Harbor, Forest, Ember, or Plum.
+3. **Custom:** choose the app bar and body colors yourself. Text switches between dark and light so it stays readable. **Reset to Slate** goes back to the default.
+
+The document page always stays plain light or dark so your work is easy to read.

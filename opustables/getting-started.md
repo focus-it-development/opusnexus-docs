@@ -82,3 +82,13 @@ The export button in the top bar saves a PDF (US Letter, landscape for wide tabl
 ## Excel files with features OpusTables cannot keep
 
 If an Excel file has charts, pivot tables, images, macros, merged cells, or similar features, OpusTables offers to **Edit a copy** so the original stays whole.
+
+## Appearance
+
+Click the palette button in the top bar, or **Appearance** on the start screen.
+
+1. **Mode:** System follows your Windows setting. Light and Dark stay put whatever Windows does.
+2. **Theme:** each theme is two colors, one for the app bar and one for the body. Pick Slate, Harbor, Forest, Ember, or Plum.
+3. **Custom:** choose the app bar and body colors yourself. Text switches between dark and light so it stays readable. **Reset to Slate** goes back to the default.
+
+The grid always stays plain light or dark so your work is easy to read.

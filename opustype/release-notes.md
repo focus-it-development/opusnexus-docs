@@ -2,6 +2,28 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.4.6 Beta (2026-09-28)
+
+Appearance: light or dark, and a two-color theme.
+
+### Added
+
+1. An Appearance panel, opened from the palette button in the top bar or the Appearance link on the start screen.
+2. Mode: System (follows Windows, the default), Light, or Dark. Changes apply right away and are remembered.
+3. Five two-color themes, each an app bar color and a body color, with a tuned dark version of each: Slate (default), Harbor, Forest, Ember, and Plum. Each swatch shows both colors.
+4. Custom: pick the app bar and body colors separately. It starts from the colors on screen, and Reset to Slate goes back to the default.
+5. Text and icons on the app bar and body switch between dark and light ink to stay readable on any color, including custom ones. The start screen wordmark does the same.
+
+### Changed
+
+1. The app bar is now slate (#2A3038, the app icon tile color) by default, instead of matching the body.
+2. Dark mode styles now follow the Appearance setting instead of reading Windows directly, so Light and Dark can be forced. Menus, scrollbars, and form controls follow along.
+
+### Notes
+
+1. The document page, menus, and dialogs always keep the plain light or dark colors, so the work area stays easy to read. Teal stays the accent in every theme. Exports are never affected.
+2. The theme loads before the window draws, so there is no flash of the wrong colors at launch.
+
 ## v0.4.5 Beta (2026-09-26)
 
 A short welcome, and a safety net for RTF files.
