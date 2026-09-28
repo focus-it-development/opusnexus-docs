@@ -10,6 +10,7 @@ Website: [opusnex.us](https://opusnex.us)
 | --- | --- | --- | --- |
 | OpusType | A clean text editor for rich text, plain text, and code | [OpusType docs](opustype/) | [opustype.app](https://opustype.app) |
 | OpusTables | A clean table editor that saves real Excel files | [OpusTables docs](opustables/) | [opustables.app](https://opustables.app) |
+| OpusPages | A clean PDF app that reads, organizes, fills, signs, and turns flat PDFs into forms | [OpusPages docs](opuspages/) | [opuspages.app](https://opuspages.app) |
 
 More apps are on the way.
 
@@ -17,7 +18,7 @@ More apps are on the way.
 
 1. Autosave. Your work saves a moment after each change, and the status in the top right shows when it has.
 2. A clean launch. Every app opens to its start screen. Nothing reopens on its own.
-3. Your own files. Documents save to a folder in Documents in standard formats that other apps open. If OneDrive backs up your Documents folder, your files are backed up too.
+3. Your own files. Everything saves in standard formats that other apps open, and new files go to a folder in Documents. If OneDrive backs up your Documents folder, your files are backed up too.
 4. Light and dark. Each app follows your Windows theme.
 5. No account and no internet needed.
 

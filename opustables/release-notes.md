@@ -2,6 +2,12 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.1.4 Beta (2026-09-28)
+
+### Fixed
+
+1. Toast messages and hover text could show with no visible text, because the Appearance colors set their text to the same color as their background. Both now keep their own text color in every theme and mode.
+
 ## v0.1.3 Beta (2026-09-28)
 
 Appearance: light or dark, and a two-color theme.
