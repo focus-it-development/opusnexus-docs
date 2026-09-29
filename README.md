@@ -11,6 +11,7 @@ Website: [opusnex.us](https://opusnex.us)
 | OpusType | A clean text editor for rich text, plain text, and code | [OpusType docs](opustype/) | [opustype.app](https://opustype.app) |
 | OpusTables | A clean table editor that saves real Excel files | [OpusTables docs](opustables/) | [opustables.app](https://opustables.app) |
 | OpusPages | A clean PDF app that reads, organizes, fills, signs, and turns flat PDFs into forms | [OpusPages docs](opuspages/) | [opuspages.app](https://opuspages.app) |
+| OpusCanvas | Screen capture and markup: snip, annotate, blur, and copy in one click | [OpusCanvas docs](opuscanvas/) | opuscanvas.app (coming soon) |
 
 More apps are on the way.
 

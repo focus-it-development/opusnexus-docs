@@ -2,6 +2,12 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.1.3 Beta (2026-09-28)
+
+### Added
+
+1. The mark on the start screen animates: one sheet slides into place, then its top right corner folds over and stays. It plays each time the start screen opens, and shows the finished mark right away with reduced motion turned on.
+
 ## v0.1.2 Beta (2026-09-28)
 
 One Save as, and a clearer Merge.
