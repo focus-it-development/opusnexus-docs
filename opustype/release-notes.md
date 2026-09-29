@@ -2,6 +2,51 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.5.0 Beta (2026-09-29)
+
+Tabs, files opened from Windows, and find and replace.
+
+### Added
+
+1. Tabs for multiple open documents. A tab strip sits above the top bar. Each tab keeps its own mode (Rich, Plain, or Code), cursor position, scroll position, and undo history, so Undo in one document can never reach into another. Ctrl+Tab and Ctrl+Shift+Tab switch tabs (Ctrl+PageDown and Ctrl+PageUp also work), Ctrl+W or a middle-click closes one, and a crowded strip scrolls sideways, including with the mouse wheel.
+2. Opening a file that is already open switches to its tab instead of opening it twice. The back arrow and the plus button show the start screen while the tabs stay open; click a tab to go back. Closing the last tab returns to the start screen. Deleting a file from the Recent list also closes its tab.
+3. Files opened from Windows. Double-clicking a supported file in Explorer, or choosing Open with, opens it as a tab in the running OpusType window. If OpusType is not running, it starts and opens the file. The installer registers `.txt`, `.log`, `.rtf`, `.md`, `.markdown`, `.json`, `.jsonc`, `.yml`, `.yaml`, `.ini`, `.cfg`, `.conf`, `.properties`, `.sql`, `.css`, `.ps1`, `.psm1`, and `.psd1`.
+4. Make OpusType your default, a link on the start screen that opens Windows Settings on Default apps.
+5. Find and replace. Ctrl+F finds, Ctrl+H replaces, and F3 and Shift+F3 move between matches. All matches are highlighted and counted (3 of 12), with Match case and Whole word in every mode. Plain and Code also have regular expressions, and the replacement can use `$1`, `$&`, `$$`, and `$<name>`. Replace all is one undo step. In Rich, matches stay inside one paragraph and replacing keeps the formatting of the text it replaces. Esc closes the bar.
+6. A status bar with words and characters (and how many are selected) in every mode. Plain and Code add the line and column, line endings, and encoding, and Code adds the language.
+7. Hover text on the Recent list menu button, the tab buttons, and every find bar button. A test now checks that every icon-only button in the app shell has hover text and an accessible name. The formatting toolbar and top bar buttons already had hover text.
+8. What's new cards for tabs and for find and replace.
+9. Tests: 15 for find and replace and word counts, 3 for hover text, 1 for the new What's new cards, and 1 backend test for launch arguments.
+
+### Changed
+
+1. A document now opens with a clean undo history. Before, pressing Undo right after opening a document or switching Rich and Plain could step back into the previous document's text.
+2. Leaving a document (for another tab or the start screen) stays put if the save fails, and says so, instead of moving on and risking the unsaved text.
+3. Only one OpusType window runs at a time. Starting a second copy hands its file to the first and brings that window forward.
+
+### Not included
+
+1. Drag a file onto the window to open it. Windows only tells the app where a dropped file is when the app's own drop handling is on, and that turns off two things OpusType relies on: dragging selected text within a document, and dropping text in from another app. Double-clicking a file, Open with, and Ctrl+O cover opening files for now. Say the word if you would rather trade text dragging for file dragging.
+
+### Notes
+
+1. Tabs are not restored when OpusType starts. It still opens on the start screen, and nothing reopens on its own.
+2. The installer sets OpusType as the registered app for the types above, and uninstalling puts the previous ones back. Types that run or open somewhere else when double-clicked (`.bat`, `.cmd`, `.js`, `.py`, `.html`, `.csv`) are deliberately not registered, so scripts still run from Explorer. Windows can keep a default you chose earlier.
+3. Checked here: all the frontend behavior (tabs, find and replace, status bar) in a browser test, the unit tests, and the Rust build and tests. Needs a look on Windows after installing: double-clicking a file in Explorer, the second-copy handoff, and the Make OpusType your default link.
+
+## v0.4.8 Beta (2026-09-28)
+
+### Added
+
+1. Recent list tools on the start screen. Hover a file (or tab to it) and a three-dot button appears at the right with Remove from list, Show in folder, and Delete file. Right-clicking a file opens the same menu, and the Delete key removes it from the list.
+2. Remove from list only hides the file, with Undo. It comes back if you open the file again.
+3. Delete file moves the file to the Recycle Bin after a confirm, so it can be restored from there.
+4. Clear list beside the Recent heading hides every file in the list at once, with Undo. Your files are not touched.
+
+### Notes
+
+1. The Recent tools are shared with the other OpusNexus apps (`src/recent.js`), so they work the same everywhere.
+
 ## v0.4.7 Beta (2026-09-28)
 
 ### Fixed

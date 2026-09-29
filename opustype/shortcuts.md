@@ -14,6 +14,11 @@
 | Undo, redo | Ctrl+Z, Ctrl+Y |
 | Indent, outdent selected lines (Code) | Tab, Shift+Tab |
 | Format JSON | Shift+Alt+F |
+| Find, replace | Ctrl+F, Ctrl+H |
+| Next match, previous match | F3, Shift+F3 |
+| Close the find bar | Esc |
+| Next tab, previous tab | Ctrl+Tab, Ctrl+Shift+Tab |
+| Close tab | Ctrl+W or middle-click |
 
 ## Typing shortcuts in rich text
 
