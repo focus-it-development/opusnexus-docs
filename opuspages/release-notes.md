@@ -1,6 +1,6 @@
 # OpusPages release notes
 
-What changed in each version, newest first. All versions are Beta.
+What changed in each version, newest first. All versions are Beta. Join the beta at [opusnex.us](https://opusnex.us).
 
 ## v0.1.3 Beta (2026-09-28)
 
