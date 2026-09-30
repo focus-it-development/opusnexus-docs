@@ -2,6 +2,31 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.5.5 Beta (2026-09-29)
+
+Snippets for Code mode, and line tools.
+
+### Added
+
+1. A Snippets panel in Code mode. The Snippets button in the top bar, or Ctrl+J, opens it at the right of the editor, and it stays open or closed as you left it. It lists snippets for the file's language first, with All languages and a search box.
+2. Double-click a snippet or press Enter to insert it at the cursor, replacing any selection. Or drag it to the spot where it should go. Every line after the first takes the indent of the line it lands on, and `$0` in a snippet marks where the cursor goes. Inserting is one undo step. Dragging a snippet into another app drops it as plain text.
+3. Save selection turns the selected code into a snippet, named from its first line and set to the file's language. New snippet starts from a blank one. The edit dialog has Name, Language (or Any language), and Code, where Tab types a tab and Ctrl+Enter saves.
+4. Each snippet's menu (the three dots, or right-click) has Insert, Edit, Duplicate, and Delete. Delete has Undo. In the list, Enter inserts, F2 edits, and Delete deletes.
+5. Import and Export in the panel's menu load or save a `.json` file, for backup or for sharing a set with someone else. Import skips snippets that are already there, and has Undo.
+6. A starter set to show how it works: a PowerShell function with a help block, an HTML page skeleton, a SQL SELECT, and a JSON object. Delete any you do not want.
+7. What's new cards for snippets and line tools.
+8. Tests: 12 for snippets (inserting with indent and `$0`, filtering, names, reading, saving, and importing).
+
+### Documented
+
+1. Line tools in Plain and Code: Alt+Up and Alt+Down move lines, Shift+Alt+Up and Shift+Alt+Down copy them, Ctrl+Shift+K deletes the line, and Ctrl+/ comments lines in Code. These come with the editor and already worked in 0.5.0, but were not listed anywhere. They are now in the README, the shortcuts list, and a What's new card.
+
+### Notes
+
+1. Snippets are stored in `AppData\Roaming\OpusType\snippets.json`, not in `Documents\OpusType`, so the file never shows in the Recent list. Saving uses the same safe temp-file swap as documents.
+2. Snippets are Code mode only. The panel hides in Rich and Plain and comes back when you return to Code.
+3. Checked here: the panel, inserting, dragging, Save selection, delete and Undo, and line moves in a browser test in light and dark, plus the unit tests and the Rust build and tests. Needs a look on Windows: Import and Export through the file dialogs, and that the snippets file is created in AppData on first open.
+
 ## v0.5.0 Beta (2026-09-29)
 
 Tabs, files opened from Windows, and find and replace.

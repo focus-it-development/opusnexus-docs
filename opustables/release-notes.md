@@ -2,6 +2,19 @@
 
 What changed in each version, newest first. All versions are Beta.
 
+## v0.1.5 Beta (2026-09-28)
+
+### Added
+
+1. Recent list tools on the start screen. Hover a file (or tab to it) and a three-dot button appears at the right with Remove from list, Show in folder, and Delete file. Right-clicking a file opens the same menu, and the Delete key removes it from the list.
+2. Remove from list only hides the file, with Undo. It comes back if you open the file again.
+3. Delete file moves the file to the Recycle Bin after a confirm, so it can be restored from there.
+4. Clear list beside the Recent heading hides every file in the list at once, with Undo. Your files are not touched.
+
+### Notes
+
+1. The Recent tools are shared with the other OpusNexus apps (`src/recent.js`), so they work the same everywhere.
+
 ## v0.1.4 Beta (2026-09-28)
 
 ### Fixed
