@@ -12,6 +12,7 @@ Website: [opusnex.us](https://opusnex.us)
 | OpusTables | A clean table editor that saves real Excel files | [OpusTables docs](opustables/) | [opustables.app](https://opustables.app) |
 | OpusPages | A clean PDF app that reads, organizes, fills, signs, and turns flat PDFs into forms | [OpusPages docs](opuspages/) | [opuspages.app](https://opuspages.app) |
 | OpusCanvas | Screen capture and markup: snip, annotate, blur, and copy in one click | [OpusCanvas docs](opuscanvas/) | opuscanvas.app (coming soon) |
+| OpusGrid | Diagrams, network maps, and floor plans on a smart grid | [OpusGrid docs](opusgrid/) | [opusgrid.app](https://opusgrid.app) |
 
 More apps are on the way.
 
