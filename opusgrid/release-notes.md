@@ -2,6 +2,12 @@
 
 What changed in each version, newest first. All versions are Beta. Join the beta at [opusnex.us](https://opusnex.us).
 
+## v0.2.3 Beta (2026-09-30)
+
+### Fixed
+
+1. The door, window, and flowchart icons in the symbol library are visible in dark mode.
+
 ## v0.2.2 Beta (2026-09-30)
 
 Page sizes, drawing scale, and a scale block on the page.
