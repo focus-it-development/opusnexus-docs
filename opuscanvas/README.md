@@ -2,7 +2,7 @@
 
 Screen capture and markup for Windows. Snip a region, window, or the whole screen, mark it up with arrows, boxes, numbered steps, text, and blur, then copy or save it in one click.
 
-Website: opuscanvas.app (coming soon)
+Website: [opuscanvas.app](https://opuscanvas.app)
 
 1. [Getting started](getting-started.md)
 2. [Keyboard shortcuts](shortcuts.md)

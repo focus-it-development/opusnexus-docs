@@ -14,6 +14,8 @@
 | Nudge (fine nudge) | Arrow keys (Shift+Arrow) |
 | Delete | Delete |
 | Copy the page as an image | Ctrl+Shift+C |
-| Zoom in, zoom out, fit the page | Ctrl+Plus, Ctrl+Minus, Ctrl+0 |
+| Zoom in, zoom out, fit the page | Ctrl+Plus, Ctrl+Minus, Ctrl+0 (or use the zoom slider in the status bar, 10% to 200%) |
+| Flip the selected rack between Front and Rear | F |
+| Print | Ctrl+P |
 | Pan | Space and drag, the middle mouse button, or the scroll wheel |
 | New diagram, open | Ctrl+N, Ctrl+O |

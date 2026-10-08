@@ -2,6 +2,44 @@
 
 What changed in each version, newest first. All versions are Beta. Join the beta at [opusnex.us](https://opusnex.us).
 
+## v0.3.1 Beta (2026-09-30)
+
+New: zoom slider in the status bar, from 10% to 200%, with minus and plus buttons and a percent readout. Click the percent to fit the page. Two finger zoom and Ctrl+wheel still work.
+
+## v0.3.0 Beta (2026-09-30)
+
+Hardware and cabling: racks, device faceplates with real ports, port-to-port cables, a cabling table, cable labels, and printing.
+
+### Added
+
+1. Racks at 12U, 24U, 42U, 45U, or a custom height, with numbered U slots. Put as many racks on a page as you need. Each rack has a name, a location note, a size on the page, and a Front/Rear toggle (press F). Rear is the default. A rack elevation is a schematic, so it does not follow the page scale.
+2. Every device lives in a rack and snaps to its slots. Drag a device to move it within its rack or into another rack. Devices cannot overlap or leave the rack.
+3. Devices with real faceplates, drawn at true rack proportions and in one generic OpusGrid style, not vendor artwork: switches at retail port counts (5, 8, 16, 24, 48, plus 2 SFP for 10, 18, 26, and 50, or 4 SFP/SFP+ for 28 and 52), with PoE marked; patch panels (12, 24, 48); firewall; 1U and 2U servers; storage controller; disk shelf; UPS; PDU; blank panel; cable manager; and a custom device. Every device stores a front face (bezel, drive bays, status lights) and a rear face (ports).
+4. A custom device builder. Every device, including the built-in ones, has editable port groups (name, type, count, rows, side, PoE), so the built-ins are presets of the same builder. Devices also take a label and an asset tag.
+5. Port types: RJ45, SFP/SFP+, QSFP, SAS, console, USB, power, and fiber LC. Ports have editable labels (shown as hover text) and four states: free, used, reserved, and disabled. A per-device summary shows how many ports are used, free, reserved, and disabled.
+6. Cables: drag from one port to another on the rear view. The drop snaps to the nearest free port. Cable types are Cat6, Cat6a, fiber OM3, OM4, OS2, DAC, SAS, power, and Other, each with a default color you can override. A purpose tag (management, storage, uplink, data, power, or your own) can also set the color. Used ports show a ring in the cable's color. A cable type that does not fit a port shows a warning.
+7. Cable routing: rounded by default, with right angle and straight as options, per cable or for the whole diagram. Cables in a rack run down the side; cables between racks go over the top. Parallel cables are spread onto their own lines. Cables follow their devices when they move, and pointing at either end of a cable lights up its whole path.
+8. Cable length: an optional length on each cable, in feet or meters (a document setting, feet by default). Lengths are kept exactly, so switching units and back loses nothing. For a cable inside one rack, a suggested length appears (the U distance plus a slack allowance you set once, rounded up to a stock length) and is only used when you accept it. Rack to rack cables get no suggestion.
+9. A cabling table you drop on the page. It is live and updates as cables change. Columns: cable ID, from rack and U, from device, from port, to rack and U, to device, to port, type, color, length, purpose, and notes. Hide any column, sort by any column, group by rack, cable type, or color, and filter to a subset, such as only the storage cables. Totals per cable type sit at the bottom, for ordering.
+10. Cable schedule export to CSV (Export menu, or from a selected table, which keeps its filter and sort). The CSV splits rack and U into separate columns. Cells that would run as a formula in a spreadsheet are made safe.
+11. A cable label sheet: two labels per cable (one at each end, each showing where the other end goes) or one label per cable listing both ends. It prints on plain paper with cut lines or on label stock, and can be exported alone as a PDF. It is added to the PDF export and to printing automatically, and you can turn that off in the Page panel.
+12. Print (Ctrl+P, or the Print button) sends the page at its real paper size to the system print dialog.
+13. Templates: Storage cabling (2 controllers, 3 shelves, SAS paths down and back up the shelves), Switch stack with uplinks, Patch panel map, and 42U rack.
+14. Copy, paste, and Duplicate work on devices and racks. Undo and redo cover everything above, including making a cable.
+
+### Changed
+
+1. The library has a new Racks and hardware group.
+2. The Page panel has a Cabling section (unit, slack, default copper type, default routing, label style) once a diagram has a rack.
+3. Files from disk are checked when opened. Damaged or hand-edited hardware data is cleaned up instead of causing errors.
+
+### Not in this version
+
+1. A logical network map generated from the cabling. Network topology stays on its own templates.
+2. Automatic rack to rack cable length.
+3. Smart cable bundling and crossing avoidance (parallel cables are only spread apart).
+4. Vendor-specific faceplate artwork.
+
 ## v0.2.3 Beta (2026-09-30)
 
 ### Fixed

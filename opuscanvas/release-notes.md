@@ -2,6 +2,10 @@
 
 What changed in each version, newest first. All versions are Beta. Join the beta at [opusnex.us](https://opusnex.us).
 
+## v0.1.4 Beta (2026-09-30)
+
+1. App icon: the crosshair now sits at the lower right of the O, matching the other Opus icons.
+
 ## v0.1.3 Beta (2026-09-29)
 
 1. The walkthrough now shows the first time OpusCanvas opens. Earlier builds skipped it because saved settings and existing screenshots looked like a returning user. It shows once for everyone on this update.
