@@ -18,7 +18,7 @@ OpusRepo is a Beta and has not been independently reviewed. Read [Known issues](
 3. Generates one-time (TOTP) codes, and can set them up by reading a QR code off your screen. No camera is used.
 4. Shares one item as a locked file that opens in any browser, or as an OpusRepo share file.
 5. Works from a folder you choose, including OneDrive, Google Drive, iCloud Drive, and Dropbox folders, with item-level merging when two PCs have changed the same vault.
-6. Fills logins and one-time codes in Chrome and Edge through a browser extension. Nothing fills until you click.
+6. Fills logins and one-time codes in Chrome and Edge through a browser extension, available from the Chrome Web Store and Microsoft Edge Add-ons. Nothing fills until you click.
 7. Sits in the system tray with a quick password generator.
 
 There is no account, no server, and no telemetry. The app makes no network calls unless you turn on the optional breach check.

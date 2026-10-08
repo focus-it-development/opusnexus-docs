@@ -36,7 +36,7 @@ Bring logins in from Chrome, Edge, Bitwarden, 1Password, LastPass, or KeePass CS
 The extension fills logins and one-time codes from your vault in Chrome and Edge. It talks only to OpusRepo on this PC, with no server and no internet.
 
 1. In OpusRepo, open Settings, turn on **Browser extension**, and press **Pair a browser**.
-2. Install the extension. Edge users can get it from Microsoft Edge Add-ons with OpusRepo v0.2.2 or later. Chrome Web Store support comes in the next OpusRepo update. Until then, Chrome users can load the extension unpacked from the folder shown in Settings.
+2. Install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/dplbbieibohcedpahcnochmkceldpplb) or [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/pomjgagokpppokbljdohlldncjkkocdd). Settings has Get it for Chrome and Get it for Edge buttons that open the same listings. Edge needs OpusRepo v0.2.2 or later, and Chrome needs v0.2.3 or later. If you turned the extension on before updating, switch Browser extension off and on once in Settings. You can still load the copy that ships with the app unpacked from the folder shown in Settings.
 3. Click the OpusRepo icon in the toolbar and type the 8 character pairing code. The code works once and expires in 5 minutes.
 4. On a sign-in page, click the amber asterisk in a field and choose a login.
 

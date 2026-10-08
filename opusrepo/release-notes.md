@@ -2,6 +2,22 @@
 
 What changed in each version, newest first. All versions are Beta. Join the beta at [opusnex.us](https://opusnex.us).
 
+## v0.2.3 Beta (2026-10-08)
+
+Chrome Web Store extension support.
+
+### Changed
+
+1. The extension from the Chrome Web Store can now pair with OpusRepo and fill logins. Together with v0.2.2, the Chrome Web Store, Microsoft Edge Add-ons, and the extension that ships with the app are all allowed.
+2. Settings, Browser extension now has Get it for Chrome and Get it for Edge buttons that open each store listing. Loading the shipped copy unpacked is still there as a fallback.
+3. Turning Browser extension off and on again in Settings refreshes the browser bridge so it lists the new ID. If you already turned it on, do this once after updating.
+
+### Security
+
+1. Exactly three extension IDs are allowed. Any other ID is still refused, for pairing and for every request.
+
+No changes to the vault file, encryption, or data format.
+
 ## v0.2.2 Beta (2026-10-04)
 
 Edge Add-ons extension support.
