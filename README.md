@@ -16,12 +16,14 @@ Website: [opusnex.us](https://opusnex.us)
 | OpusEditor | A quick photo editor where annotations stay editable | [OpusEditor docs](opuseditor/) | [opuseditor.app](https://opuseditor.app) |
 | OpusLists | Checklists and dated tasks with real Windows alerts | [OpusLists docs](opuslists/) | [opuslists.app](https://opuslists.app) |
 | OpusRepo | A local-first password manager for one person, with a Chrome and Edge extension | [OpusRepo docs](opusrepo/) | [opusrepo.app](https://opusrepo.app) |
+| OpusFoundry | Turns letter artwork into an installable font, with every fix previewed first | [OpusFoundry docs](opusfoundry/) | [opusfoundry.app](https://opusfoundry.app) |
+| OpusReels | Turns a long video into short vertical clips with captions, on your own computer | [OpusReels docs](opusreels/) | [opusreels.app](https://opusreels.app) |
 
 More apps are on the way.
 
 ## What every OpusNexus app has in common
 
-1. Your work is kept safe. Most apps autosave a moment after each change and show the status in the top right. OpusEditor saves when you press Ctrl+S and asks before closing unsaved work. OpusLists and OpusRepo save every change to their local data as you go.
+1. Your work is kept safe. Most apps autosave a moment after each change and show the status in the top right. OpusEditor, OpusFoundry and OpusReels save a project when you press Ctrl+S. OpusLists and OpusRepo save every change to their local data as you go.
 2. A clean launch. Every app opens to its start screen. Nothing reopens on its own.
 3. Your own files. Everything saves in standard formats that other apps open, and new files go to a folder in Documents. If OneDrive backs up your Documents folder, your files are backed up too. OpusLists keeps its data in your app data folder, and OpusRepo keeps its vault where you choose, with export and backup built in.
 4. Light and dark. Each app follows your Windows theme.
@@ -29,7 +31,7 @@ More apps are on the way.
 
 ## Beta
 
-All OpusNexus apps are in Beta for Windows x64. To join the beta, apply on any of the websites above.
+All OpusNexus apps are in Beta for Windows x64. OpusFoundry also has an unsigned Mac build for testing. To join the beta, apply on any of the websites above.
 
 Found a problem or have an idea? Open an issue in this repository, or email beta@opusnex.us.
 
